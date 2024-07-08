@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="myElement">Hello</div>
+    <button type="button" id="myButton">clicked</button>
+    <script>
+      // Use methods like getElementById, getElementsByClassName, getElementsByTagName, querySelector, and querySelectorAll to select DOM elements.
+      // Selecting Elements
+      const element = document.getElementById("myElement");
+      const elements = document.querySelectorAll(".myClass");
+
+      // Manipulating Elements
+
+      // You can change the content, attributes, and style of elements.
+      element.textContent = "Hello Oishik";
+      element.setAttribute("data-custom", "value");
+      element.style.color = "red";
+      element.style.alignItems = "center";
+      element.style.backgroundColor = "green";
+
+      const button = document.getElementById("myButton");
+      button.addEventListener("click", () => {
+        alert("Button clicked!");
+      });
+    </script>
+  </body>
+</html>
