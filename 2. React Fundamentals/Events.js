@@ -1,18 +1,11 @@
 // Handling Events in React
-
 // In React, handling events is very similar to handling events in plain HTML, but with some syntactic differences and improvements. React events are named using camelCase, and you pass a function as the event handler rather than a string.
-
 // Key Differences from HTML
-
 // 1. **Event Naming**: React uses camelCase for event names (e.g., `onClick` instead of `onclick`).
 // 2. **Function Handling**: You pass a function directly to the event handler (e.g., `onClick={handleClick}`).
-
 //  Commonly Used Events
-
 //  Handling Events with Functional Components
-
 // Let's look at a simple example where we handle a button click event.
-
 // **Example: Handling Button Clicks**
 
 import React, { useState } from "react";
@@ -23,7 +16,6 @@ function ClickCounter() {
   const handleClick = () => {
     setCount(count + 1);
   };
-
   return (
     <div>
       <p>You clicked {count} times</p>
@@ -37,11 +29,8 @@ function ClickCounter() {
 // In this example:
 // - We define a state variable `count` and a function `handleClick` that increments `count`.
 // - The `onClick` event handler on the button calls the `handleClick` function when the button is clicked.
-
 // ### Handling Events with Class Components
-
 // Let's look at the same example using a class component.
-
 // **Example: Handling Button Clicks**
 
 import React, { Component } from "react";
@@ -68,6 +57,7 @@ class ClickCounter extends Component {
   }
 }
 
+// this.set will be used in the total calculated sources
 // export default ClickCounter;
 
 // In this example:

@@ -56,6 +56,14 @@ function DataFetcher() {
   );
 }
 
+function getData(dataId, nextdatasets) {
+  return new Promise(reslove, reject);
+  if (nextdatasets) {
+    reslove(nextdatasets);
+  }
+  console.log("Fetched new Promises");
+}
+
 // export default DataFetcher;
 
 // - `useEffect` runs the side effect (fetching data) after the component renders.
