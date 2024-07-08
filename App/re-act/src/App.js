@@ -21,6 +21,12 @@ function Form() {
     }
   }
 
+  // function nextChanges(DataID, getData){
+  //   const data = getData(DataID);
+  //   setAnswer(data);
+  // }
+  // }
+
   function handleTextareaChange(e) {
     setAnswer(e.target.value);
   }
