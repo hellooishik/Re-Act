@@ -10,7 +10,7 @@ const fetchData = () => {
 const getData = async () => {
   try {
     const data = await fetchData();
-    console.log(data); // Output: Data fetched
+    console.log(datacd re-act); // Output: Data fetched
   } catch (error) {
     console.error(error);
   }
