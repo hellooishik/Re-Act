@@ -9,6 +9,8 @@ function Form() {
     return <h1>That's right!</h1>;
   }
 
+  // The Async Adjustments
+
   async function handleSubmit(e) {
     e.preventDefault();
     setStatus("submitting");
